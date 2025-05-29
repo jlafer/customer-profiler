@@ -1,0 +1,98 @@
+{
+  "tabs": [
+    {
+      "name": "Account",
+      "type": "static",
+      "source": "acct",
+      "columns": [
+        {
+          "index": 0,
+          "width": 150
+        },
+        {
+          "index": 1,
+          "width": 265
+        }
+      ],
+      "sections": [
+        {
+          "style": "list",
+          "values": [
+            {
+              "field": "friendly_name",
+              "label": "Friendly Name",
+              "type": "STRING"
+            },
+            {
+              "field": "account_sid",
+              "label": "SID",
+              "type": "STRING"
+            },
+            {
+              "field": "date_created",
+              "label": "Date Created",
+              "type": "DATE"
+            },
+            {
+              "field": "fraud_score",
+              "label": "Fraud Score",
+              "pattern": "###,###",
+              "type": "NUMBER"
+            },
+            {
+              "field": "cntSubAccts",
+              "label": "Sub Accounts",
+              "pattern": "###,##0",
+              "type": "NUMBER"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SubAccts",
+      "type": "static",
+      "source": "acct.subAccts",
+      "columns": [
+        {
+          "index": 0,
+          "width": 265
+        },
+        {
+          "index": 1,
+          "width": 265
+        }
+      ],
+      "sections": [
+        {
+          "style": "table",
+          "keys": [
+            {
+              "field": "account_sid",
+              "label": "Account SID",
+              "type": "STRING"
+            },
+            {
+              "field": "friendly_name",
+              "label": "Friendly Name",
+              "type": "STRING"
+            }
+          ],
+          "values": [
+            {
+              "field": "date_created",
+              "label": "Date Created",
+              "type": "DATE"
+            },
+            {
+              "field": "fraud_score",
+              "label": "Fraud Score",
+              "pattern": "###,###",
+              "type": "NUMBER"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

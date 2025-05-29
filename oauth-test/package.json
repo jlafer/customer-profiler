@@ -1,0 +1,13 @@
+{
+  "name": "customer-profiler",
+  "version": "1.0.0",
+  "description": "Create Google Sheets files via Google Drive API",
+  "main": "create-sheets.js",
+  "scripts": {
+    "start": "node create-sheets.js"
+  },
+  "dependencies": {
+    "googleapis": "^126.0.1",
+    "open": "^8.4.2"
+  }
+}

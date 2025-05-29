@@ -1,0 +1,668 @@
+{
+  "account_sid": "AC83c2439af940d548590b35c4cxxxxxxx",
+  "friendly_name": "ACME Marketing",
+  "status": "ACTIVE",
+  "date_created": "2015-12-28 21:16:40.000",
+  "fraud_score": 8,
+  "spendByProduct": [
+      {
+          "product_grp2": "Engagement Cloud",
+          "product_grp1": "Lookups",
+          "events": 27461052,
+          "quantity": "27461052.000000000",
+          "dollars": 6557.89
+      },
+      {
+          "product_grp2": "Messaging",
+          "product_grp1": "Messaging Carrier Fee Int",
+          "events": 755459,
+          "quantity": "1218902.000000000",
+          "dollars": 9651.686099999999
+      },
+      {
+          "product_grp2": "Messaging",
+          "product_grp1": "Messaging Carrier Fee US",
+          "events": 24050092,
+          "quantity": "42517856.000000000",
+          "dollars": 128720.58296000001
+      },
+      {
+          "product_grp2": "Messaging",
+          "product_grp1": "Messaging Features",
+          "events": 42144,
+          "quantity": "42144.000000000",
+          "dollars": 42.144
+      },
+      {
+          "product_grp2": "Messaging",
+          "product_grp1": "Messaging Int",
+          "events": 2314409,
+          "quantity": "3384940.000000000",
+          "dollars": 71047.06314
+      },
+      {
+          "product_grp2": "Messaging",
+          "product_grp1": "Messaging Registration Fees",
+          "events": 1344,
+          "quantity": "1344.000000000",
+          "dollars": 12863.0
+      },
+      {
+          "product_grp2": "Messaging",
+          "product_grp1": "Messaging US",
+          "events": 25099764,
+          "quantity": "43637945.000000000",
+          "dollars": 69739.96114
+      },
+      {
+          "product_grp2": "Messaging",
+          "product_grp1": "Short Code Carrier Fee US",
+          "events": 24322353,
+          "quantity": "35990278.000000000",
+          "dollars": 97599.14700000001
+      },
+      {
+          "product_grp2": "Messaging",
+          "product_grp1": "Short Code Messaging Int",
+          "events": 1782168,
+          "quantity": "2632391.000000000",
+          "dollars": 45371.47345
+      },
+      {
+          "product_grp2": "Messaging",
+          "product_grp1": "Short Code Messaging US",
+          "events": 25408131,
+          "quantity": "37147335.000000000",
+          "dollars": 50244.646850000005
+      },
+      {
+          "product_grp2": "Messaging",
+          "product_grp1": "WhatsApp Messaging",
+          "events": 1439960,
+          "quantity": "1439960.000000000",
+          "dollars": 12918.7429
+      },
+      {
+          "product_grp2": "Numbers",
+          "product_grp1": "Numbers Features",
+          "events": 812,
+          "quantity": "812.000000000",
+          "dollars": 0.0
+      },
+      {
+          "product_grp2": "Numbers",
+          "product_grp1": "Numbers Features - Short Code",
+          "events": 14,
+          "quantity": "14.000000000",
+          "dollars": 7000.0
+      },
+      {
+          "product_grp2": "Numbers",
+          "product_grp1": "Numbers Int",
+          "events": 2197,
+          "quantity": "2197.000000000",
+          "dollars": 10759.789999999999
+      },
+      {
+          "product_grp2": "Numbers",
+          "product_grp1": "Numbers US",
+          "events": 25510,
+          "quantity": "25510.000000000",
+          "dollars": 6410.05
+      },
+      {
+          "product_grp2": "Numbers",
+          "product_grp1": "Short Code Numbers US",
+          "events": 16,
+          "quantity": "16.000000000",
+          "dollars": 138000.0
+      },
+      {
+          "product_grp2": "Other",
+          "product_grp1": "Support",
+          "events": 1,
+          "quantity": "1.000000000",
+          "dollars": 20000.0
+      },
+      {
+          "product_grp2": "Voice & Video",
+          "product_grp1": "Programmable Video - Data Track",
+          "events": 64709,
+          "quantity": "64.709000000",
+          "dollars": 0.0
+      },
+      {
+          "product_grp2": "Voice & Video",
+          "product_grp1": "Programmable Video - Group Rooms",
+          "events": 38507,
+          "quantity": "811016.000000000",
+          "dollars": 1654.95
+      },
+      {
+          "product_grp2": "Voice & Video",
+          "product_grp1": "Programmable Voice Features",
+          "events": 175,
+          "quantity": "175.000000000",
+          "dollars": 0.3
+      },
+      {
+          "product_grp2": "Voice & Video",
+          "product_grp1": "Programmable Voice Int",
+          "events": 1489,
+          "quantity": "1466.000000000",
+          "dollars": 15.360399999999998
+      },
+      {
+          "product_grp2": "Voice & Video",
+          "product_grp1": "Programmable Voice Recordings",
+          "events": 8,
+          "quantity": "129.000000000",
+          "dollars": 0.0175
+      },
+      {
+          "product_grp2": "Voice & Video",
+          "product_grp1": "Programmable Voice US",
+          "events": 45116,
+          "quantity": "44111.000000000",
+          "dollars": 236.7878
+      },
+      {
+          "product_grp2": "Voice & Video",
+          "product_grp1": "TURN",
+          "events": 10644,
+          "quantity": "584121.910250000",
+          "dollars": 0.0
+      }
+  ],
+  "spendByCountry": [
+      {
+          "country": "United States",
+          "dollars": 515357.4942500001
+      },
+      {
+          "country": "United Kingdom",
+          "dollars": 55223.17527000001
+      },
+      {
+          "country": "Canada",
+          "dollars": 37182.272469999996
+      },
+      {
+          "country": "Non Geographic",
+          "dollars": 29906.200500000003
+      },
+      {
+          "country": "Australia",
+          "dollars": 12226.0778
+      },
+      {
+          "country": "Israel",
+          "dollars": 11644.16188
+      },
+      {
+          "country": "Singapore",
+          "dollars": 5586.6462
+      },
+      {
+          "country": "New Zealand",
+          "dollars": 5489.6822999999995
+      },
+      {
+          "country": "Ireland",
+          "dollars": 3910.9382499999997
+      },
+      {
+          "country": "India",
+          "dollars": 1484.4104200000002
+      },
+      {
+          "country": "Germany",
+          "dollars": 1380.1346700000001
+      },
+      {
+          "country": "Netherlands",
+          "dollars": 1125.1697
+      },
+      {
+          "country": "Mexico",
+          "dollars": 893.4604999999999
+      },
+      {
+          "country": "Vietnam",
+          "dollars": 878.2149
+      },
+      {
+          "country": "Puerto Rico",
+          "dollars": 706.8997
+      }
+  ],
+  "cntSubAccts": 88,
+  "numbers": [
+      {
+          "account_sid": "AC00bd5b564a5726165a4753d52a4xxxxx",
+          "type_name": "domestic",
+          "cnt": 2
+      },
+      {
+          "account_sid": "AC00bd5b564a5726165a4753d52a4xxxxx",
+          "type_name": "mobile",
+          "cnt": 1
+      },
+      {
+          "account_sid": "AC01972f45f7d6705bd83b33a53dcxxxxx",
+          "type_name": "domestic",
+          "cnt": 1
+      },
+      {
+          "account_sid": "AC032d424ffc03ac4549468a48396xxxxx",
+          "type_name": "domestic",
+          "cnt": 1
+      },
+      {
+          "account_sid": "AC06d9fd2ac35d9fe6f7d1503bba2xxxxx",
+          "type_name": "domestic",
+          "cnt": 2
+      },
+      {
+          "account_sid": "AC07be709e2ef51d57cb37c0aa9e0xxxxx",
+          "type_name": "domestic",
+          "cnt": 1
+      },
+      {
+          "account_sid": "AC0ed1176c66548a29bc1c76d9cd4xxxxx",
+          "type_name": "domestic",
+          "cnt": 2
+      },
+      {
+          "account_sid": "AC1065b77d26814f2df56ab308ffdxxxxx",
+          "type_name": "domestic",
+          "cnt": 1
+      },
+      {
+          "account_sid": "AC1065b77d26814f2df56ab308ffdxxxxx",
+          "type_name": "mobile",
+          "cnt": 2
+      },
+      {
+          "account_sid": "AC1072ae4057aae1ace60f7fd2b50xxxxx",
+          "type_name": "domestic",
+          "cnt": 1
+      },
+      {
+          "account_sid": "AC83c2439af940d548590b35c4c2dxxxxx",
+          "type_name": "domestic",
+          "cnt": 25710
+      },
+      {
+          "account_sid": "AC83c2439af940d548590b35c4c2dxxxxx",
+          "type_name": "mobile",
+          "cnt": 1249
+      },
+      {
+          "account_sid": "AC83c2439af940d548590b35c4c2dxxxxx",
+          "type_name": "tollfree",
+          "cnt": 215
+      },
+      {
+          "account_sid": "ACb298dd015ca4c9eab782d675752xxxxx",
+          "type_name": "domestic",
+          "cnt": 4
+      },
+      {
+          "account_sid": "ACb3d3f121f01b2ed50d070006606xxxxx",
+          "type_name": "domestic",
+          "cnt": 1
+      },
+      {
+          "account_sid": "ACb44868702fff18c1abe959f0ae3xxxxx",
+          "type_name": "domestic",
+          "cnt": 2
+      },
+      {
+          "account_sid": "ACb74e35ec9bc26abca8fa99dbd12xxxxx",
+          "type_name": "domestic",
+          "cnt": 109
+      },
+      {
+          "account_sid": "ACb74e35ec9bc26abca8fa99dbd12xxxxx",
+          "type_name": "mobile",
+          "cnt": 44
+      },
+      {
+          "account_sid": "ACb7cd77a3185c95e610c8d2663cdxxxxx",
+          "type_name": "domestic",
+          "cnt": 3
+      },
+      {
+          "account_sid": "ACbad80caca0e1b762e40bfbde1bdxxxxx",
+          "type_name": "mobile",
+          "cnt": 1
+      },
+      {
+          "account_sid": "ACff09182e968ea1914c685cac26exxxxx",
+          "type_name": "domestic",
+          "cnt": 1
+      }
+  ],
+  "subAccts": [
+      {
+          "account_sid": "AC46eccd8ee5f42f4b87dd505e354xxxxx",
+          "friendly_name": "Log-On",
+          "status": "ACTIVE",
+          "date_created": "2021-06-14 12:36:41.000",
+          "fraud_score": 0
+      },
+      {
+          "account_sid": "ACee5f16fd4d40286cad00b88c442xxxxx",
+          "friendly_name": "KPMM",
+          "status": "ACTIVE",
+          "date_created": "2024-07-29 12:32:58.000",
+          "fraud_score": 0
+      },
+      {
+          "account_sid": "AC367ab1183fb93162fe529e264c5xxxxx",
+          "friendly_name": "Job Search",
+          "status": "ACTIVE",
+          "date_created": "2024-09-05 11:41:50.000",
+          "fraud_score": 0
+      },
+      {
+          "account_sid": "AC00bd5b564a5726165a4753d52a4xxxxx",
+          "friendly_name": "Marriott",
+          "status": "ACTIVE",
+          "date_created": "2024-09-08 12:37:16.000",
+          "fraud_score": 0
+      },
+      {
+          "account_sid": "ACa76c15aee44c488ca51cf866a50xxxxx",
+          "friendly_name": "NCR",
+          "status": "ACTIVE",
+          "date_created": "2024-11-26 08:10:34.000",
+          "fraud_score": 0
+      },
+      {
+          "account_sid": "ACb74e35ec9bc26abca8fa99dbd12xxxxx",
+          "friendly_name": "Parakeet",
+          "status": "ACTIVE",
+          "date_created": "2020-02-06 21:50:38.000",
+          "fraud_score": 0
+      },
+      {
+          "account_sid": "AC1065b77d26814f2df56ab308ffdxxxxx",
+          "friendly_name": "ASMLow",
+          "status": "ACTIVE",
+          "date_created": "2024-11-19 14:07:37.000",
+          "fraud_score": 0
+      },
+      {
+          "account_sid": "AC06d9fd2ac35d9fe6f7d1503bba2xxxxx",
+          "friendly_name": "Smith Controls",
+          "status": "ACTIVE",
+          "date_created": "2024-10-14 13:05:14.000",
+          "fraud_score": 0
+      },
+      {
+          "account_sid": "AC8c41a010cc6eb9795ffd5ba0f81xxxxx",
+          "friendly_name": "UOB",
+          "status": "ACTIVE",
+          "date_created": "2024-10-16 08:07:25.000",
+          "fraud_score": 0
+      },
+      {
+          "account_sid": "ACebf5ebf158fa792ddce6e586e5fxxxxx",
+          "friendly_name": "Rakuten",
+          "status": "ACTIVE",
+          "date_created": "2024-10-16 08:08:19.000",
+          "fraud_score": 0
+      },
+      {
+          "account_sid": "ACb7cd77a3185c95e610c8d2663cdxxxxx",
+          "friendly_name": "Arthur J. Gallagher",
+          "status": "ACTIVE",
+          "date_created": "2024-10-24 09:21:06.000",
+          "fraud_score": 0
+      },
+      {
+          "account_sid": "ACd3dae68db4d1ef4443657e13a8exxxxx",
+          "friendly_name": "AES",
+          "status": "ACTIVE",
+          "date_created": "2024-11-17 07:25:20.000",
+          "fraud_score": 0
+      },
+      {
+          "account_sid": "AC77befe938fa78fdb3df27a5f359xxxxx",
+          "friendly_name": "Telstra",
+          "status": "ACTIVE",
+          "date_created": "2024-10-01 11:24:38.000",
+          "fraud_score": 0
+      }
+  ],
+  "highSpendSubAccts": [
+      {
+          "account_sid": "AC06d9fd2ac35d9fe6f7d1503bba2xxxxx",
+          "account_name": "Smith Controls",
+          "total": "4901.989500000",
+          "spendByProduct": [
+              {
+                  "product_grp2": "Messaging",
+                  "product_grp1": "WhatsApp Messaging",
+                  "dollars": 4901.3159
+              }
+          ],
+          "spendByCountry": [
+              {
+                  "country": "Non Geographic",
+                  "dollars": 2480.978
+              },
+              {
+                  "country": "India",
+                  "dollars": 317.25600000000003
+              },
+              {
+                  "country": "Mexico",
+                  "dollars": 275.20400000000006
+              },
+              {
+                  "country": "United Kingdom",
+                  "dollars": 241.8395
+              },
+              {
+                  "country": "Germany",
+                  "dollars": 218.12950000000006
+              },
+              {
+                  "country": "Singapore",
+                  "dollars": 144.9207
+              },
+              {
+                  "country": "Argentina",
+                  "dollars": 130.48520000000002
+              },
+              {
+                  "country": "Switzerland",
+                  "dollars": 32.799200000000006
+              }
+          ]
+      },
+      {
+          "account_sid": "AC367ab1183fb93162fe529e264c5xxxxx",
+          "account_name": "Job Search",
+          "total": "2481.831200000",
+          "spendByProduct": [
+              {
+                  "product_grp2": "Messaging",
+                  "product_grp1": "WhatsApp Messaging",
+                  "dollars": 2480.751099999999
+              }
+          ],
+          "spendByCountry": [
+              {
+                  "country": "Non Geographic",
+                  "dollars": 1049.465
+              },
+              {
+                  "country": "Argentina",
+                  "dollars": 330.6918
+              },
+              {
+                  "country": "South Africa",
+                  "dollars": 281.04880000000014
+              },
+              {
+                  "country": "Mexico",
+                  "dollars": 198.7624
+              },
+              {
+                  "country": "Brazil",
+                  "dollars": 182.3765
+              },
+              {
+                  "country": "Peru",
+                  "dollars": 126.95030000000001
+              },
+              {
+                  "country": "Colombia",
+                  "dollars": 48.4299
+              }
+          ]
+      },
+      {
+          "account_sid": "ACb74e35ec9bc26abca8fa99dbd12xxxxx",
+          "account_name": "Parakeet",
+          "total": "904.166600000",
+          "spendByProduct": [
+              {
+                  "product_grp2": "Numbers",
+                  "product_grp1": "Numbers Int",
+                  "dollars": 547.3
+              },
+              {
+                  "product_grp2": "Messaging",
+                  "product_grp1": "WhatsApp Messaging",
+                  "dollars": 313.1725
+              }
+          ],
+          "spendByCountry": [
+              {
+                  "country": "Singapore",
+                  "dollars": 382.32280000000003
+              },
+              {
+                  "country": "Non Geographic",
+                  "dollars": 104.07200000000003
+              },
+              {
+                  "country": "Switzerland",
+                  "dollars": 66.7364
+              },
+              {
+                  "country": "United Kingdom",
+                  "dollars": 48.05077
+              },
+              {
+                  "country": "Netherlands",
+                  "dollars": 30.867400000000007
+              }
+          ]
+      },
+      {
+          "account_sid": "AC1065b77d26814f2df56ab308ffdxxxxx",
+          "account_name": "ASMLow",
+          "total": "479.353900000",
+          "spendByProduct": [
+              {
+                  "product_grp2": "Messaging",
+                  "product_grp1": "WhatsApp Messaging",
+                  "dollars": 467.06800000000004
+              }
+          ],
+          "spendByCountry": [
+              {
+                  "country": "Netherlands",
+                  "dollars": 358.37749999999994
+              },
+              {
+                  "country": "Non Geographic",
+                  "dollars": 65.50200000000001
+              }
+          ]
+      },
+      {
+          "account_sid": "AC6c00a15de14af926f68d5c17c07xxxxx",
+          "account_name": "Scooter",
+          "total": "328.315800000",
+          "spendByProduct": [
+              {
+                  "product_grp2": "Messaging",
+                  "product_grp1": "WhatsApp Messaging",
+                  "dollars": 168.05879999999996
+              },
+              {
+                  "product_grp2": "Numbers",
+                  "product_grp1": "Numbers Int",
+                  "dollars": 160.0
+              }
+          ],
+          "spendByCountry": [
+              {
+                  "country": "Singapore",
+                  "dollars": 262.58930000000004
+              },
+              {
+                  "country": "Non Geographic",
+                  "dollars": 54.387
+              }
+          ]
+      },
+      {
+          "account_sid": "ACee5f16fd4d40286cad00b88c442xxxxx",
+          "account_name": "KPMM",
+          "total": "306.958600000",
+          "spendByProduct": [
+              {
+                  "product_grp2": "Messaging",
+                  "product_grp1": "WhatsApp Messaging",
+                  "dollars": 226.3963000000001
+              },
+              {
+                  "product_grp2": "Numbers",
+                  "product_grp1": "Numbers Int",
+                  "dollars": 80.0
+              }
+          ],
+          "spendByCountry": [
+              {
+                  "country": "Singapore",
+                  "dollars": 178.37020000000004
+              },
+              {
+                  "country": "Non Geographic",
+                  "dollars": 119.22600000000003
+              }
+          ]
+      },
+      {
+          "account_sid": "ACa76c15aee44c488ca51cf866a50xxxxx",
+          "account_name": "NCR",
+          "total": "301.113100000",
+          "spendByProduct": [
+              {
+                  "product_grp2": "Numbers",
+                  "product_grp1": "Numbers Int",
+                  "dollars": 240.0
+              },
+              {
+                  "product_grp2": "Messaging",
+                  "product_grp1": "WhatsApp Messaging",
+                  "dollars": 60.8631
+              }
+          ],
+          "spendByCountry": [
+              {
+                  "country": "Singapore",
+                  "dollars": 277.6993
+              }
+          ]
+      }
+  ]
+}

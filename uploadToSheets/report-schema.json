@@ -1,0 +1,434 @@
+{
+  "tabs": [
+    {
+      "name": "Account",
+      "type": "static",
+      "source": "acct",
+      "columns": [
+        {
+          "index": 0,
+          "width": 150
+        },
+        {
+          "index": 1,
+          "width": 265
+        }
+      ],
+      "sections": [
+        {
+          "style": "list",
+          "values": [
+            {
+              "field": "friendly_name",
+              "label": "Friendly Name",
+              "type": "STRING"
+            },
+            {
+              "field": "account_sid",
+              "label": "SID",
+              "type": "STRING"
+            },
+            {
+              "field": "date_created",
+              "label": "Date Created",
+              "type": "DATE"
+            },
+            {
+              "field": "fraud_score",
+              "label": "Fraud Score",
+              "pattern": "###,###",
+              "type": "NUMBER"
+            },
+            {
+              "field": "cntSubAccts",
+              "label": "Sub Accounts",
+              "pattern": "###,##0",
+              "type": "NUMBER"
+            },
+            {
+              "field": "cntAllMsgServices",
+              "label": "All Messaging Services",
+              "pattern": "###,##0",
+              "type": "NUMBER"
+            },
+            {
+              "field": "cntOwnMsgServices",
+              "label": "Parent Messaging Services",
+              "pattern": "###,##0",
+              "type": "NUMBER"
+            }
+          ]
+        },
+        {
+          "source": "allNumbers",
+          "style": "table",
+          "keys": [
+            {
+              "field": "type_name",
+              "label": "Type Name",
+              "type": "STRING"
+            }
+          ],
+          "values": [
+            {
+              "field": "cnt",
+              "label": "All Numbers",
+              "type": "NUMBER",
+              "pattern": "###,##0"
+            }
+          ]
+        },
+        {
+          "source": "ownNumbers",
+          "style": "table",
+          "keys": [
+            {
+              "field": "type_name",
+              "label": "Type Name",
+              "type": "STRING"
+            }
+          ],
+          "values": [
+            {
+              "field": "cnt",
+              "label": "Parent Numbers",
+              "type": "NUMBER",
+              "pattern": "###,##0"
+            }
+          ]
+        },
+        {
+          "source": "ownMsgSvcSends",
+          "style": "table",
+          "keys": [
+            {
+              "field": "messaging_service",
+              "label": "Messaging Service",
+              "type": "STRING"
+            }
+          ],
+          "values": [
+            {
+              "field": "cnt",
+              "label": "Count",
+              "type": "NUMBER",
+              "pattern": "###,##0"
+            },
+            {
+              "field": "cntOptOuts",
+              "label": "Opt Outs",
+              "type": "NUMBER",
+              "pattern": "###,##0"
+            }
+          ]
+        },
+        {
+          "source": "ownSenderSends",
+          "style": "table",
+          "keys": [
+            {
+              "field": "sender",
+              "label": "Sender",
+              "type": "STRING"
+            }
+          ],
+          "values": [
+            {
+              "field": "cnt",
+              "label": "Count",
+              "type": "NUMBER",
+              "pattern": "###,##0"
+            },
+            {
+              "field": "cntOptOuts",
+              "label": "Opt Outs",
+              "type": "NUMBER",
+              "pattern": "###,##0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SubAccts",
+      "type": "static",
+      "source": "acct.highSpendSubAccts",
+      "columns": [
+        {
+          "index": 0,
+          "width": 265
+        },
+        {
+          "index": 1,
+          "width": 265
+        }
+      ],
+      "sections": [
+        {
+          "style": "table",
+          "keys": [
+            {
+              "field": "account_sid",
+              "label": "Account SID",
+              "type": "STRING"
+            },
+            {
+              "field": "account_name",
+              "label": "Friendly Name",
+              "type": "STRING"
+            }
+          ],
+          "values": [
+            {
+              "field": "total",
+              "label": "Dollars",
+              "type": "CURRENCY",
+              "pattern": "$###,##0"
+            },
+            {
+              "field": "date_created",
+              "label": "Date Created",
+              "type": "DATE"
+            },
+            {
+              "field": "fraud_score",
+              "label": "Fraud Score",
+              "pattern": "###,###",
+              "type": "NUMBER"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SpendByProduct",
+      "type": "static",
+      "source": "acct.spendByProduct",
+      "columns": [
+        {
+          "index": 0,
+          "width": 150
+        },
+        {
+          "index": 1,
+          "width": 265
+        }
+      ],
+      "sections": [
+        {
+          "style": "table",
+          "keys": [
+            {
+              "field": "product_grp2",
+              "label": "Product Group 2",
+              "type": "STRING"
+            },
+            {
+              "field": "product_grp1",
+              "label": "Product Group 1",
+              "type": "STRING"
+            }
+          ],
+          "values": [
+            {
+              "field": "quantity",
+              "label": "Quantity",
+              "type": "NUMBER",
+              "pattern": "###,##0"
+            },
+            {
+              "field": "dollars",
+              "label": "Dollars",
+              "type": "CURRENCY",
+              "pattern": "$###,##0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SpendByCountry",
+      "type": "static",
+      "source": "acct.spendByCountry",
+      "columns": [
+        {
+          "index": 0,
+          "width": 250
+        }
+      ],
+      "sections": [
+        {
+          "style": "table",
+          "keys": [
+            {
+              "field": "country",
+              "label": "Country",
+              "type": "STRING"
+            }
+          ],
+          "values": [
+            {
+              "field": "dollars",
+              "label": "Dollars",
+              "type": "CURRENCY",
+              "pattern": "$###,##0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "account_name",
+      "type": "dynamic",
+      "source": "acct.highSpendSubAccts",
+      "columns": [
+        {
+          "index": 0,
+          "width": 150
+        },
+        {
+          "index": 1,
+          "width": 265
+        }
+      ],
+      "sections": [
+        {
+          "style": "list",
+          "values": [
+            {
+              "field": "account_sid",
+              "label": "SID",
+              "type": "STRING"
+            },
+            {
+              "field": "account_name",
+              "label": "Account Name",
+              "type": "STRING"
+            },
+            {
+              "field": "total",
+              "label": "Dollars",
+              "type": "CURRENCY",
+              "pattern": "$###,##0"
+            }
+          ]
+        },
+        {
+          "source": "spendByProduct",
+          "style": "table",
+          "keys": [
+            {
+              "field": "product_grp2",
+              "label": "Product Group 2",
+              "type": "STRING"
+            },
+            {
+              "field": "product_grp1",
+              "label": "Product Group 1",
+              "type": "STRING"
+            }
+          ],
+          "values": [
+            {
+              "field": "dollars",
+              "label": "Dollars",
+              "type": "CURRENCY",
+              "pattern": "$###,##0"
+            }
+          ]
+        },
+        {
+          "source": "ownNumbers",
+          "style": "table",
+          "keys": [
+            {
+              "field": "type_name",
+              "label": "Type Name",
+              "type": "STRING"
+            }
+          ],
+          "values": [
+            {
+              "field": "cnt",
+              "label": "Count",
+              "type": "NUMBER",
+              "pattern": "###,##0"
+            }
+          ]
+        },
+        {
+          "source": "ownShortcodes",
+          "style": "table",
+          "keys": [
+            {
+              "field": "name",
+              "label": "Shortcode",
+              "type": "STRING"
+            },
+            {
+              "field": "region",
+              "label": "Region",
+              "type": "STRING"
+            },
+            {
+              "field": "provider",
+              "label": "Provider",
+              "type": "STRING"
+            }
+          ],
+          "values": []
+        },
+        {
+          "source": "ownMsgSvcSends",
+          "style": "table",
+          "keys": [
+            {
+              "field": "messaging_service",
+              "label": "Messaging Service",
+              "type": "STRING"
+            }
+          ],
+          "values": [
+            {
+              "field": "cnt",
+              "label": "Count",
+              "type": "NUMBER",
+              "pattern": "###,##0"
+            },
+            {
+              "field": "cntOptOuts",
+              "label": "Opt Outs",
+              "type": "NUMBER",
+              "pattern": "###,##0"
+            }
+          ]
+        },
+        {
+          "source": "ownSenderSends",
+          "style": "table",
+          "keys": [
+            {
+              "field": "sender",
+              "label": "Sender",
+              "type": "STRING"
+            }
+          ],
+          "values": [
+            {
+              "field": "cnt",
+              "label": "Count",
+              "type": "NUMBER",
+              "pattern": "###,##0"
+            },
+            {
+              "field": "cntOptOuts",
+              "label": "Opt Outs",
+              "type": "NUMBER",
+              "pattern": "###,##0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
