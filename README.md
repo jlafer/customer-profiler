@@ -80,7 +80,7 @@ If you have not previously authenticated with Google and authorized the program 
 
 When you authorize the program for the `drive.file` and `spreadsheets` resource scopes, the browser tab will be redirected to your `localhost` and nothing will be shown. However, the URL will contain an `code` query parameter, which you must copy for use back in the program command line prompt. Here's what the URL will look like:
 
-http://localhost/?code=`<auth-code>`&scope=https://www.googleapis.com/auth/drive.file%20https://www.googleapis.com/auth/spreadsheets
+http://localhost/?code=\<auth-code\>&scope=https://www.googleapis.com/auth/drive.file%20https://www.googleapis.com/auth/spreadsheets
 
 Copy just the `<auth-code>` value and paste it into the prompt back in the terminal window.
 
