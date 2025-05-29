@@ -78,12 +78,12 @@ The folder path points to the folder that contains the downloaded files written 
 ### Authentication and Authorization with Google
 If you have not previously authenticated with Google and authorized the program to access the Drive and Sheets APIs, the program will open your default browser and navigate to Google to complete those steps.
 
-When you authorize the program for the `drive.file` and `spreadsheets` resource scopes, the browser tab will be redirected to your `localhost` and nothing will be shown. However, the URL will contain a `code` query parameter, which you must copy for use back in the program command line prompt. Here's what the URL will look like:
+When you authorize the program for the `drive.file` and `spreadsheets` resource scopes, the browser tab will be redirected to your `localhost` and nothing will be shown. However, the URL will contain an `code` query parameter, which you must copy for use back in the program command line prompt. Here's what the URL will look like:
 
-http://localhost/?code=<auth-code>&scope=https://www.googleapis.com/auth/drive.file%20https://www.googleapis.com/auth/spreadsheets
+http://localhost/?code=`<auth-code>`&scope=https://www.googleapis.com/auth/drive.file%20https://www.googleapis.com/auth/spreadsheets
 
 Copy just the `<auth-code>` value and paste it into the prompt back in the terminal window.
 
 The result of successful authentication and authorization is a `token.json` file that the program saves in the `uploadToSheets` subfolder. It will be used for authorization going forward (until the token expires, in which case you should delete the file and re-run the program).
 
-Next, the program will look for the named spreadsheet file in the root folder of your Twilio Google Drive. It will overwrite its contents if found. If not found, it will create a new one. The program writes progress messages to the terminal as it reads the input files and writes them into the spreadsheet. When the program finishes execution, the spreadsheet will be ready to review.
+Next, the program will look for the named spreadsheet file in the root folder of your Twilio Google Drive. It will overwrite its contents if found. If not found, it will create a new one. The program writes progress messages to the terminal as it reads the input file and writes it into the spreadsheet. When the program finishes execution, the spreadsheet will be ready to review.
